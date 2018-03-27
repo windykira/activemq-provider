@@ -15,6 +15,6 @@
            http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
 
     <import resource="classpath:config/spring-base.xml"/>
-    <import resource="classpath:config/spring-avtivemq.xml"/>
+    <import resource="classpath:config/spring-activemq2.xml"/>
 
 </beans>

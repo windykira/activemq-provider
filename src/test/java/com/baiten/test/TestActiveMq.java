@@ -22,7 +22,7 @@ public class TestActiveMq {
     public void test(){
 
         UserEntity userEntity = new UserEntity();
-        userEntity.setName("test");
+        userEntity.setName("madea");
         userEntity.setAddress("中国常州");
         amqSenderService.sendMsg(userEntity);
     }

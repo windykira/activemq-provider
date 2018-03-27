@@ -27,7 +27,7 @@ public class AMQSenderServiceImpl implements AmqSenderService{
     private JmsTemplate jmsTemplate;
 
     //目的地队列的明证，我们要向这个队列发送消息
-    @Resource(name = "destinationTopic")
+    @Resource(name = "destinationQueue")
     private Destination destination;
 
     public void sendMsg(UserEntity user) {
